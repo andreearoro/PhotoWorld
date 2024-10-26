@@ -5,8 +5,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PhotoWorld</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <div class="container">
+        <div class="navbar flex-row bg-white justify-around items-center">
+          <div class="logo">
+            <a href="index.html">
+              <img
+                src="https://t4.ftcdn.net/jpg/04/68/61/19/360_F_468611909_eqqmoLwzFm43CfFawLHcgRC4piafw7Mp.jpg"
+                width="100px"
+              />
+            </a>
+          </div>
+          <div class="nav-links">
+            <a href="pages/admin.html"
+              ><i class="fa-solid fa-user-secret"></i> Admin</a
+            >
+            <a href="pages/cart.html"
+              ><i class="fa-solid fa-cart-shopping"></i> Cart</a
+            >
+          </div>
+        </div>
+        <div class="products flex-wrap flex-row gap-20"></div>
+      </div>
+      <script type="module" src="index.js"></script>
 </body>
 </html>
