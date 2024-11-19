@@ -1,4 +1,11 @@
-import { addNewProduct, getAllProducts } from "../api/alimente.js";
+import {
+	getAllProducts,
+	updateProduct,
+	addNewProduct,
+	getProductById,
+	deleteProduct,
+} from '../api/alimente.js';
+
 import { mapProductToAdminTableRow } from "../utils/layout.js";
 
 const productsTableBody = document
