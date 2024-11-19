@@ -81,6 +81,7 @@
     background-color: black;
     padding: 10px;
     text-transform: uppercase;
+    cursor: pointer;
   }
 
   .border-bottom {
